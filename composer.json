@@ -3,6 +3,11 @@
     "monolog/monolog": "1.0.*",
     "klein/klein": "^2.1",
     "doctrine/orm": "2.4.*",
-    "symfony/yaml": "2.*"
+    "symfony/yaml": "2.*",
+    "firebase/php-jwt": "^5.0",
+    "jms/serializer": "^1.10"
+  },
+  "autoload": {
+    "psr-4": { "Own\\": "src/" }
   }
 }
